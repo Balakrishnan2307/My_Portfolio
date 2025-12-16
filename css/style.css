@@ -1153,3 +1153,21 @@ footer .copyright-text {
         max-width: 100%;
     }
 }
+.work-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-section .work-title h5{
+    justify-content: center;
+    color:var(--main-color);
+    font-family: "Nunito",sans-serif;
+    font-size:16px;
+    margin-bottom: 15px;
+}
+.work-section .work-title h3{
+    justify-content: center;
+    color:var(--black-900);
+    font-family: "Nunito",sans-serif;
+    font-size:var(--para-heading);
+    margin-bottom: 15px;
+}
